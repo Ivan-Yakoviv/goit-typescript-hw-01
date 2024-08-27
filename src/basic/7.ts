@@ -9,8 +9,11 @@ type Page = {
     accounts: string[];
     status: 'open'|'close';
     details?: Details;
-    
+
 }
+
+// Створіть новий тип даних, який підходить для цих двох об'єктів.
+
 const page1 = {
   title: 'The awesome page',
   likes: 100,
